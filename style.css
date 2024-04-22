@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url("https://img.freepik.com/free-vector/white-technology-background_23-2148390327.jpg");
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+    font-family: Georgia, serif;
+}
+
+.info a {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: 50%;
+}
+
+.info a:hover{
+    color: crimson;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 0;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+    font-weight: bold;
+}
+
+.info h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 11%;
+}
+
+.info h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.info span{
+    color: maroon;
+}
+
+.learnmore a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    margin: 26px 100px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.learnmore a:hover{
+    background: crimson;
+}
+
+.image{
+    width: 27%;
+    height: 60%;
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 150%;
+    left: 30%;
+    transform: translate(-60%);
+    bottom: 0;
+    mix-blend-mode: multiply;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 10%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+
+.icons ion-icon:hover{
+    color: crimson;
+}
+
