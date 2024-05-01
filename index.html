@@ -1,33 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content ="width-device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet ">
-    </head>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      </head>
+        <body>
 
-<body>
-     <div class="main">
-        <div class="info">
-            <h3>Hi, I'm <span>Keziah.</span></h3>
-            <h1><span>U</span>I<span> U</span>X <span>D</span>ESIGNER</h1>
-            <h2>Former student of <a href="https://cvsu.edu.ph/bacoor/">Cavite State University of Bacoor City</a></h2>
-        </div>
-        <div class="learnmore">
-            <a href="about.html">Learn More </a>
-        </div>
-        <div class="image">
-            <img src="https://i.pinimg.com/736x/85/1d/9b/851d9b5659df4881446ce8dd8f9bb15d.jpg" class="me">
-        </div>
-        <div class="icons">
-            <a href="https://www.facebook.com/Kezi28"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="https://www.instagram.com/kc_euni/"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="https://github.com/Eunice101"><ion-icon name="logo-github"></ion-icon></a>
-            <a href="https://sg.docs.wps.com/l/sIESPyrFVx7yMsQY?fbclid=IwAR2sfF_zWDfMGYe_sMwvg-FJacIuAipSaTOH-vd4Xksf2kH71-xQOFm5b-4&v=v2"><ion-icon name="logo-linkedin"></ion-icon></a>
-        </div>
-     </div>
-     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-</body>
-</html>
+        <div class="main">
+            <div class="info">
+                <h3>Hi, I'm <span>Keziah.</span></h3>
+                <h1><span>U</span>I<span> U</span>X <span>D</span>ESIGNER</h1>
+                <h2>Former student of <a href="https://cvsu.edu.ph/bacoor/">Cavite State University of Bacoor City</a></h2>
+            </div>
+            <div class="detail">
+                <a href="mailto:keziah082804@gmail.com">Reach Out </a>
+            </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/736x/85/1d/9b/851d9b5659df4881446ce8dd8f9bb15d.jpg" class="me">
+            </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/Kezi28"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/kc_euni/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://github.com/Eunice101"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://drive.google.com/file/d/1k1Oj7hXa_qPM4nJ3iobFezcdBe89tTE7/view?usp=sharing"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+            <nav>
+                <ul>
+                        <a href="index.html" class="logo">
+                            <img src="https://i.pinimg.com/736x/bf/12/58/bf1258cb8a15188ea41959271d085dcf.jpg">
+                            <span class="nav-item">Portfolio</span>
+                        </a>
+                        <a href="index.html" class="home">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="nav-item">Home</span>
+                        </a>
+                        <a href="works.html" class="works">
+                        <i class="fa-solid fa-folder"></i>
+                        <span class="nav-item">My Works</span>
+                        </a>
+                        <a href="about.html" class="learnmore">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="nav-item">Learn More</span>
+                        </a>           
+                </ul>
+            </nav>
+         </div>
+         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    
+    </body>
+ 
+ 
+ 
+ 
+ <style>
+body{
+            width: 100%;
+            background: url("https://img.freepik.com/free-vector/white-technology-background_23-2148390327.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 10vh;
+            position: relative;
+            font-family: Georgia, serif;
+        }
+
+    nav{
+        position: sticky;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        left: 0;
+        background: grey;
+        width: 70px;
+        overflow: hidden;
+        transition: width 0.2s linear;
+        box-shadow: 0 20px 35px black;
+        margin: 0;
+        padding: 0;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+        .logo{
+            text-align: center;
+            display: flex;
+            transition: all 0.5s ease;
+            margin: 10px 20px 10px -50px;
+            padding: 30px;
+        }
+    
+        .home{
+            text-align: center;
+            display: flex;
+            transition: all 0.5s ease;
+            margin: 10px 20px -30px -38px;
+            padding: 30px;
+        }
+    
+        
+        .works{
+            text-align: center;
+            display: flex;
+            transition: all 0.5s ease;
+            margin: 10px 20px -30px -38px;
+            padding: 30px;
+        }
+    
+        .learnmore{
+            text-align: center;
+            display: flex;
+            transition: all 0.5s ease;
+            margin: 10px 20px 10px -38px;
+            padding: 30px;
+        }
+    
+        .logo img{
+            width: 50px;
+            height: 50px;
+            border-radius: 30%;
+        }
+    
+        .logo span{
+            font-weight: bold;
+            padding-right: 20px;
+            font-size: 18px;
+            text-transform: uppercase;
+            top: 12px;
+        }
+    
+        nav a{
+            position: relative;
+            color: white;
+            font-size: 25px;
+            display: table;
+            width: 300px;
+            padding: 10px;
+            text-decoration: none;
+        }
+    
+        .fa{
+            position: relative;
+            width: 70px;
+            height: 40px;
+            top: 14px;
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        .nav-item{
+            position: relative;
+            top: -5px;
+            margin-left: 30px;
+        }
+    
+        nav a:hover{
+            background: crimson;
+        }
+    
+        nav:hover{
+            width: 280px;
+            transition: all 0.5s ease;
+        }
+
+
+        
+
+
+
+        
+        .info a {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: 50%;
+}
+
+.info a:hover{
+    color: crimson;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 0;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+    font-weight: bold;
+    padding-left: 70px;
+}
+
+.info h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 11%;
+    padding-left: 70px;
+}
+
+.info h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-left: 70px;
+}
+
+.info span{
+    color: maroon;
+}
+
+.detail a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    margin: 26px 100px;
+    margin-left: 180px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.detail a:hover{
+    background: crimson;
+}
+
+.image{
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    right: 70px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 150%;
+    left: 30%;
+    transform: translate(-60%);
+    bottom: 0;
+    mix-blend-mode: multiply;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+    margin-right: -70px;
+    padding-left: 5%;
+}
+
+.icons ion-icon{
+    margin-left: 10%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+}
+
+.icons ion-icon:hover{
+    color: crimson;
+}
+
+    </style>
+     </html>   
